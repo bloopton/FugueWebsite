@@ -1,0 +1,111 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body
+{
+	height:100%;
+	width:100%;
+	background-color:#cccccc;	
+}
+
+
+#backDrop
+{
+background-image:url(FugueBubbles.png);
+background-size: 128px auto;
+background-origin:content-box;
+background-repeat:repeat;
+background-color: #00003b;
+position:fixed;
+background-position:50% -2%;
+
+}
+
+
+.button
+{
+
+	background-color:black;
+	padding:4px;
+	margin:3px;
+	border-radius:5px;
+
+	position:relative;
+	display:inline;
+	
+}
+
+.button a:link
+{
+	font-family: silkscreen;
+	color:#06F;
+	text-decoration:none;
+	font-size:36px;
+}
+.button a:visited
+{
+	text-decoration:none;
+}
+
+.button:visited
+{
+	text-decoration:none;
+}
+
+.button:hover
+{
+	background-color: #333;
+}
+
+.button a:hover
+{
+	color:cyan;
+}
+
+
+.leftBorder
+{
+	height:75%;
+	width:80px;
+	padding:0;
+	float:left;
+	position:absolute;
+	margin-top:50px;
+	border-radius:6px;
+}
+
+.mainArea
+{
+	height:75%;
+	width:600px;
+	padding:0;
+	float:right;
+	position:absolute;
+	margin-top:15px;
+	margin-left:100px;
+	border-radius:6px;
+}
+
+.textSelection
+{
+	width:90%;
+	height:auto;
+	padding:4px;
+	background-color:#666;
+	opacity:.7;
+	border-radius:6px;
+	margin:10px;
+	color:#0FF;
+	font-family: AdvoCut;
+}
+
+
+
+
+
+
+
+
+
+
+
