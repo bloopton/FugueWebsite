@@ -5,9 +5,32 @@ body
 {
 	height:100%;
 	width:100%;
-	background-color:#cccccc;	
+	background-color:#cccccc;
+	background-size: 32px auto;
+	background-image:url(Sand%20tile.png);
+	background-repeat:repeat;
+	z-index:1;
+	margin-left:25%;
+
+	/*background-image:url(Psych.jpg);
+	background-size: 2400px auto;
+	background-origin:content-box;
+	background-repeat:repeat;
+	background-color: #00003b;
+	*/
 }
 
+/*.section
+{
+	margin-top:px;
+	height:75%;
+	width:800px;
+	background-color:yellow;
+	z-index:2;
+	border-right:6px;
+	position:absolute;
+	
+}*/
 
 #backDrop
 {
@@ -22,14 +45,65 @@ background-position:50% -2%;
 }
 
 
+
+
+/*-------------------TEXT SECTIONS--------------------*/
+.leftBorder
+{
+	height:75%;
+	width:80px;
+	padding:0;
+	position:absolute;
+	margin-top:50px;
+	border-radius:6px;
+}
+
+.mainArea
+{
+	height:75%;
+	width:600px;
+	padding:0;
+	position:absolute;
+	margin-top:15px;
+	margin-left:100px;
+	border-radius:6px;
+}
+
+.textSelection
+{
+	width:90%;
+	height:auto;
+	padding:4px;
+	background-color:#666;
+	border-radius:6px;
+	margin:10px;
+	color:#0FF;
+	font-family: AdvoCut;
+	
+		transition: opacity .5s ease;
+		opacity:.6;
+}
+
+.textSelection:hover
+{
+	opacity:1;
+}
+
+
+/*-------------------END--------------------*/
+
+
+
+/*-------------------TOP BUTTONS--------------------*/
 .button
 {
-
+	
+	transition: background-color 0.5s ease;
 	background-color:black;
+	
 	padding:4px;
 	margin:3px;
 	border-radius:5px;
-
 	position:relative;
 	display:inline;
 	
@@ -54,7 +128,7 @@ background-position:50% -2%;
 
 .button:hover
 {
-	background-color: #333;
+	background-color: #CCC;
 }
 
 .button a:hover
@@ -62,50 +136,15 @@ background-position:50% -2%;
 	color:cyan;
 }
 
+/*-------------------END--------------------*/
 
-.leftBorder
+
+
+
+.header
 {
-	height:75%;
-	width:80px;
-	padding:0;
-	float:left;
-	position:absolute;
-	margin-top:50px;
-	border-radius:6px;
+	
 }
-
-.mainArea
-{
-	height:75%;
-	width:600px;
-	padding:0;
-	float:right;
-	position:absolute;
-	margin-top:15px;
-	margin-left:100px;
-	border-radius:6px;
-}
-
-.textSelection
-{
-	width:90%;
-	height:auto;
-	padding:4px;
-	background-color:#666;
-	opacity:.7;
-	border-radius:6px;
-	margin:10px;
-	color:#0FF;
-	font-family: AdvoCut;
-}
-
-
-
-
-
-
-
-
 
 
 
