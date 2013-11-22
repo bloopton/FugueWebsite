@@ -1,16 +1,21 @@
 @charset "UTF-8";
 /* CSS Document */
 
+
 body
 {
 	height:100%;
-	width:100%;
+	width:800px;
 	background-color:#cccccc;
 	background-size: 32px auto;
 	background-image:url(Sand%20tile.png);
 	background-repeat:repeat;
 	z-index:1;
 	margin-left:25%;
+	margin-right:auto;
+	margin-left:auto;
+	overflow-y: scroll;
+	overflow-x: hidden;
 
 	/*background-image:url(Psych.jpg);
 	background-size: 2400px auto;
@@ -37,35 +42,49 @@ body
 background-image:url(FugueBubbles.png);
 background-size: 128px auto;
 background-origin:content-box;
-background-repeat:repeat;
+background-repeat:repeat-x:repeat;
 background-color: #00003b;
 position:fixed;
 background-position:50% -2%;
 
 }
 
+.backsplash
+{	
+				background-image:url(TopBar.png);
+				background-size: 140px auto;
+				background-origin:content-box;
+				background-repeat:repeat;
+				background-color: #00003b;
+	top:0;
+	left:0;
+	height:140px;
+	width:100%;
+	background-color:#F00;
+	position:fixed;	
+	
+}
 
 
-
-/*-------------------TEXT SECTIONS--------------------*/
+/*-------------------CONTENT SECTIONS--------------------*/
 .leftBorder
 {
-	height:75%;
-	width:80px;
+	height:84%;
+	width:130px;
 	padding:0;
 	position:absolute;
-	margin-top:50px;
+	margin-top:160px;
 	border-radius:6px;
 }
 
 .mainArea
 {
-	height:75%;
-	width:600px;
+	height:84%;
+	width:730px;
 	padding:0;
 	position:absolute;
-	margin-top:15px;
-	margin-left:100px;
+	margin-top:160px;
+	margin-left:150px;
 	border-radius:6px;
 }
 
@@ -76,7 +95,7 @@ background-position:50% -2%;
 	padding:4px;
 	background-color:#666;
 	border-radius:6px;
-	margin:10px;
+	margin:16px;
 	color:#0FF;
 	font-family: AdvoCut;
 	
@@ -95,17 +114,22 @@ background-position:50% -2%;
 
 
 /*-------------------TOP BUTTONS--------------------*/
-.button
+.topBarList
 {
 	
+	list-style-type: none;
+	position:fixed;
+	top:0;
+	
+}
+.button
+{	
 	transition: background-color 0.5s ease;
 	background-color:black;
-	
-	padding:4px;
-	margin:3px;
+	padding:30px;
+	margin:7px;
 	border-radius:5px;
-	position:relative;
-	display:inline;
+	display:inline-block;
 	
 }
 
@@ -119,6 +143,7 @@ background-position:50% -2%;
 .button a:visited
 {
 	text-decoration:none;
+	color:#06F;
 }
 
 .button:visited
