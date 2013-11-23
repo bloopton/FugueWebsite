@@ -13,7 +13,7 @@ body
 	overflow-y: scroll;
 	overflow-x: hidden;
 	
-	background-color: #9CC;
+	background-color:#036;
 
 
 }
@@ -37,7 +37,7 @@ background-size: 32px auto;
 background-origin:content-box;
 background-repeat:repeat-x:repeat;
 background-color: #00003b;
-position:fixed;
+position:absolute;
 background-position:50% -2%;
 
 }
@@ -54,7 +54,7 @@ background-position:50% -2%;
 	height:140px;
 	width:100%;
 	background-color:#F00;
-	position:fixed;	
+	position:absolute;	
 	
 }
 
@@ -72,7 +72,7 @@ background-position:50% -2%;
 
 .mainArea
 {
-	height:84%;
+	height:auto;
 	width:730px;
 	padding:0;
 	position:absolute;
@@ -111,10 +111,11 @@ background-position:50% -2%;
 {
 	
 	list-style-type: none;
-	position:fixed;
-	top:0;
+	position:absolute;
+	top:0px;
 	
 }
+
 .button
 {	
 	transition: background-color 0.5s ease;
@@ -123,8 +124,10 @@ background-position:50% -2%;
 	margin:7px;
 	border-radius:5px;
 	display:inline-block;
+
 	
 }
+
 
 .button a:link
 {
