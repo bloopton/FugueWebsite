@@ -32,11 +32,11 @@ body
 
 #backDrop
 {
-background-image:url(Sand%20tile.png);
+<!--background-image:url(Sand%20tile.png);-->
 background-size: 32px auto;
 background-origin:content-box;
 background-repeat:repeat-x:repeat;
-background-color: #00003b;
+background-color: #CCC;
 position:absolute;
 background-position:50% -2%;
 
