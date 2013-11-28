@@ -29,8 +29,16 @@ body
 
 #backDrop
 {
+<<<<<<< HEAD
 /*background-color:#036;*/
 background-origin:content-box;
+=======
+<!--background-image:url(Sand%20tile.png);-->
+background-size: 32px auto;
+background-origin:content-box;
+background-repeat:repeat-x:repeat;
+background-color: #CCC;
+>>>>>>> 49c0bca861dd02eb7fca63ebac36cc0b51c06ce6
 position:absolute;
 background-position:50% -2%;
 
