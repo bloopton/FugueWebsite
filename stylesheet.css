@@ -12,12 +12,9 @@ body
 	margin-left:auto;
 	overflow-y: scroll;
 	overflow-x: hidden;
+	background:url(FugueBackDrop.png) top center no-repeat; background-position:fixed; background-color:#13031f;
 	
-	background-color:#036;
-
-
 }
-
 /*.section
 {
 	margin-top:px;
@@ -32,11 +29,8 @@ body
 
 #backDrop
 {
-background-image:url(Sand%20tile.png);
-background-size: 32px auto;
+/*background-color:#036;*/
 background-origin:content-box;
-background-repeat:repeat-x:repeat;
-background-color: #00003b;
 position:absolute;
 background-position:50% -2%;
 
@@ -45,16 +39,18 @@ background-position:50% -2%;
 .backsplash
 {	
 				background-image:url(TopBar.png);
-				background-size: 140px auto;
+				background-size: 70px auto;
 				background-origin:content-box;
 				background-repeat:repeat;
-				background-color: #00003b;
-	top:0;
-	left:0;
-	height:140px;
-	width:100%;
+				border-radius:5px;
+				
+	top:80px;
+	height:70px;
+	margin-left:110px;
+	width:600px;
 	background-color:#F00;
 	position:absolute;	
+	
 	
 }
 
@@ -77,7 +73,7 @@ background-position:50% -2%;
 	padding:0;
 	position:absolute;
 	margin-top:160px;
-	margin-left:150px;
+	margin-left:90px;
 	border-radius:6px;
 }
 
@@ -107,16 +103,15 @@ background-position:50% -2%;
 
 
 /*-------------------TOP BUTTONS--------------------*/
-.topBarList
+.nav
 {
-	
 	list-style-type: none;
-	position:absolute;
-<<<<<<< HEAD
-	top:0px;
-=======
-	top:0;
->>>>>>> a9efba663685ba1e1c21e99c7ff96009651448fd
+	
+	margin:0;
+
+	center:0
+	display:inline;
+	text-align:center;
 	
 }
 
@@ -124,21 +119,21 @@ background-position:50% -2%;
 {	
 	transition: background-color 0.5s ease;
 	background-color:black;
-	padding:30px;
+	padding:5px;
 	margin:7px;
 	border-radius:5px;
 	display:inline-block;
-
-	
 }
 
 
-.button a:link
+.nav a:link
 {
 	font-family: silkscreen;
 	color:#06F;
 	text-decoration:none;
-	font-size:36px;
+	font-size:20px;
+	display:inline-block;
+	padding:12px;
 }
 .button a:visited
 {
