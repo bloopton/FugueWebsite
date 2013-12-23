@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+/* SPLASH PAGE */
+
+body
+{
+	/*background:url(FugueSplash.png) center no-repeat fixed;*/
+	background-color:black; 
+	background-size:auto 100%;
+
+}
+
+.link
+{
+		height:100%;
+		text-align:center;
+		transition: opacity .5s ease;
+		-moz-transition: opacity .5s ease;
+		-webkit-transition: opacity .5s ease;
+		-o-transition: opacity .5s ease;
+		opacity:.6;
+}
+
+.link:hover
+{
+	opacity:1;
+}
