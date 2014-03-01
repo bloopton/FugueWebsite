@@ -1,0 +1,184 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body
+{
+	height:100%;
+	width:auto;
+	z-index:1;
+	margin:auto;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	background:url(FugueBackDrop.png) top center no-repeat; background-position:fixed; background-color:#13031f; background-size: 100% auto;
+	
+}
+/*.section
+{
+	margin-top:px;
+	height:75%;
+	width:800px;
+	background-color:yellow;
+	z-index:2;
+	border-right:6px;
+	position:absolute;
+	
+}*/
+
+
+#backDrop
+{
+<<<<<<< HEAD
+/*background-color:#036;*/
+background-origin:content-box;
+=======
+/*background-image:url(Sand%20tile.png);*/
+background-size: 60% auto;
+background-origin:content-box;
+background-repeat:repeat-x:repeat;
+/*background-color: #CCC;*/
+>>>>>>> 49c0bca861dd02eb7fca63ebac36cc0b51c06ce6
+position:absolute;
+background-position:50% -2%;
+
+}
+
+.backsplash
+{	
+				background-image:url(TopBar.png);
+				background-size: 70px auto;
+				background-origin:content-box;
+				background-repeat:repeat;
+				border-radius:5px;
+				
+	top:80px;
+	height:70px;
+	/*margin-left:110px;*/
+	/*width:600px;*/
+	width:100%;
+	margin:auto;
+	background-color:#F00;
+	
+	
+}
+
+
+/*-------------------CONTENT SECTIONS--------------------*/
+.leftBorder
+{
+	height:84%;
+	width:100%;
+	padding:0;
+	position:absolute;
+	margin-top:160px;
+	border-radius:6px;
+}
+
+.mainArea
+{
+	height:auto;
+	width:70%;
+	padding:0;
+	margin-top:160px;
+	/*margin-left:40px;*/
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:6px;
+}
+
+.textSelection
+{
+	width:90%;
+	height:auto;
+	padding:4px;
+	background-color:#CCC;
+	border-radius:6px;
+	margin:16px;
+	color:#009;
+	font-family: AdvoCut;
+	
+		transition: opacity .5s ease;
+		-moz-transition: opacity .5s ease;
+		-webkit-transition: opacity .5s ease;
+		-o-transition: opacity .5s ease;
+		opacity:.6;
+}
+
+.textSelection:hover
+{
+	opacity:1;
+}
+
+
+/*-------------------END--------------------*/
+
+
+
+/*-------------------TOP BUTTONS--------------------*/
+.nav
+{
+	list-style-type: none;
+	
+	margin:0;
+	width:auto;
+	center:0
+	display:inline-block;
+	
+	text-align:center;
+	
+}
+
+.button
+{	
+	transition: background-color 0.5s ease;
+	-moz-transition: background-color 0.5s ease;
+	-webkit-transition: background-color 0.5s ease;
+	-o-transition: background-color 0.5s ease;
+	
+	background-color:black;
+	padding:5px;
+	margin:7px 3% 7px 3%;
+	border-radius:5px;
+	display:inline-block;
+}
+
+
+.nav a:link
+{
+	font-family: silkscreen;
+	color:#06F;
+	text-decoration:none;
+	/*font-size:20px;*/
+	font-size:1.3em;
+	display:inline-block;
+	padding:12px;
+}
+.button a:visited
+{
+	text-decoration:none;
+	color:#06F;
+}
+
+.button:visited
+{
+	text-decoration:none;
+}
+
+.button:hover
+{
+	background-color: #CCC;
+}
+
+.button a:hover
+{
+	color:cyan;
+}
+
+/*-------------------END--------------------*/
+
+
+
+
+
+
+

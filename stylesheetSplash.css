@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+/* SPLASH PAGE */
+
+body
+{
+	background:url(BubblesSplash.png);
+	background-color:black; 
+	background-size: auto 100%;
+
+}
+
+.link
+{
+		height:100%;
+		text-align:center;
+		transition: opacity 2.8s ease;
+		-moz-transition: opacity 2.8s ease;
+		-webkit-transition: opacity 2.8s ease;
+		-o-transition: opacity 2.8s ease;
+		opacity:0;
+		margin:0;
+		padding:0;
+		
+}
+
+.link:hover
+{
+	opacity:1;
+}
