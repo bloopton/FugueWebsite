@@ -10,7 +10,7 @@ body
 	margin:auto;
 	overflow-y: scroll;
 	overflow-x: hidden;
-	background:url(FugueBackDrop.png) top center no-repeat; background-position:fixed; background-color:#13031f; background-size: 100% auto;
+	background:url(Dawn.png) top center no-repeat; background-position:fixed; background-color:#060206; background-size: 100% auto;
 	
 }
 /*.section
@@ -84,6 +84,8 @@ background-position:50% -2%;
 	margin-left:auto;
 	margin-right:auto;
 	border-radius:6px;
+	position: center;
+	
 }
 
 .textSelection
@@ -101,12 +103,60 @@ background-position:50% -2%;
 		-moz-transition: opacity .5s ease;
 		-webkit-transition: opacity .5s ease;
 		-o-transition: opacity .5s ease;
-		opacity:.6;
+		opacity:.3;
 }
 
 .textSelection:hover
 {
 	opacity:1;
+}
+
+.vid
+{
+	width:auto;
+	height:110%;
+	padding:4px;
+	background-color:#CCC;
+	border-radius:10px;
+	color:#009;
+	font-family: AdvoCut;
+	text-align:right;
+	float:right;
+	margin-top:5%;
+	display:block;
+	
+	
+		transition: opacity .5s ease;
+		-moz-transition: opacity .5s ease;
+		-webkit-transition: opacity .5s ease;
+		-o-transition: opacity .5s ease;
+		opacity:.3;
+}
+
+.vid:hover
+{
+	opacity:1;
+}
+
+
+.imagesTest {
+	position:absolute;
+    height:auto;
+    width:40%;
+	text-align:left;
+	float:left;
+}
+.imagesTest img {
+    position:absolute;
+	width:60%;
+    -webkit-transition: opacity .1s ease-in-out;
+    -moz-transition: opacity .1s ease-in-out;
+    -o-transition: opacity .1s ease-in-out;
+    transition: opacity .1s ease-in-out;
+}
+
+.imagesTest img.transition:hover {
+    opacity:0;
 }
 
 
@@ -126,6 +176,24 @@ background-position:50% -2%;
 	
 	text-align:center;
 	
+}
+
+.subNav
+{
+	list-style-type: none;
+	
+	margin:5px;
+	margin-left:-30%;
+	display:block;
+	text-align:left;
+}
+
+.subButton
+{
+	
+	padding:5px;
+	margin:10%;
+	border-radius:5px;	
 }
 
 .button
