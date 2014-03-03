@@ -239,6 +239,14 @@ background-position:50% -2%;
 }
 
 
+@font-face
+{
+font-family: silkscreen;
+src: url(slkscr.tff);
+}
+
+
+
 .nav a:link
 {
 	font-family: silkscreen;
