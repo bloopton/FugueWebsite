@@ -22,7 +22,7 @@ $(document).ready(function () {
         $('body').addClass('afternoon');
     else if (hournow >= 6)  // if it is after 6am
         $('body').addClass('morning');
-    else if (hournow >= 0)  // if it is after midnight
+    else if (hournow >= 23)  // if it is after midnight
         $('body').addClass('midnight');
 });
 
