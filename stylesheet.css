@@ -2,17 +2,44 @@
 /* CSS Document */
 
 
-body
-{
+.evening { 
 	height:100%;
 	width:auto;
 	z-index:1;
 	margin:auto;
 	overflow-y: scroll;
 	overflow-x: hidden;
-	background:url(DawnSplashGif.gif) top center no-repeat; background-position:fixed; background-color:#060206; background-size: 100% auto;
-	
-}
+	background-color:#060206;
+	background:url(EveningSplashgif.gif) top center no-repeat; background-position:fixed; background-color:#060206; background-size: 100% auto;}
+.afternoon{ 
+	height:100%;
+	width:auto;
+	z-index:1;
+	margin:auto;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	background-color:#060206;
+	background:url(AfternoonSplashgif.gif) top center no-repeat; background-position:fixed; background-color:#060206; background-size: 100% auto;}
+.morning {
+	height:100%;
+	width:auto;
+	z-index:1;
+	margin:auto;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	background-color:#060206;
+	background:url(DawnSplashGif.gif) top center no-repeat; background-position:fixed; background-color:#060206; background-size: 100% auto;}
+.midnight {
+	height:100%;
+	width:auto;
+	z-index:1;
+	margin:auto;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	background-color:#060206;
+	background:url(AfternoonSplashgif.gif) top center no-repeat; background-position:fixed; background-color:#060206; background-size: 100% auto;}
+
+
 /*.section
 {
 	margin-top:px;
