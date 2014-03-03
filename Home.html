@@ -15,15 +15,14 @@ $(document).ready(function () {
     datetoday.setTime(timenow); // setting the time now to datetoday variable
     var hournow = datetoday.getHours();  //the hour it is
  
- 
-    if (hournow >= 18)  // if it is after 6pm
+ 	if (hournow >= 23)  // if it is after midnight
+        $('body').addClass('midnight');
+    else if (hournow >= 18)  // if it is after 6pm
         $('body').addClass('evening');
     else if (hournow >= 13) // if it is after 12pm
         $('body').addClass('afternoon');
     else if (hournow >= 6)  // if it is after 6am
-        $('body').addClass('morning');
-    else if (hournow >= 23)  // if it is after midnight
-        $('body').addClass('midnight');
+        $('body').addClass('morning'); 
 });
 
 </script>
