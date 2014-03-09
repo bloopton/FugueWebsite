@@ -4,30 +4,13 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Fugue</title>
 <link type="text/css" rel="stylesheet" href="stylesheet.css"/> 
-<link rel="shortcut icon" href="favicon.ico">
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
 </script>
 
-<script>
+<script type="text/javascript" src="script.js"></script>
+<link rel="shortcut icon" href="favicon.ico">
 
-$(document).ready(function () {
-    var datetoday = new Date(); // create new Date()
-    var timenow = datetoday.getTime(); // grabbing the time it is now
-    datetoday.setTime(timenow); // setting the time now to datetoday variable
-    var hournow = datetoday.getHours();  //the hour it is
- 
- 	
-    if (hournow >= 18)  // if it is after 6pm
-        $('body').addClass('evening');
-    else if (hournow >= 13) // if it is after 12pm
-        $('body').addClass('afternoon');
-    else if (hournow >= 6)  // if it is after 6am
-        $('body').addClass('morning'); 
-	else if (hournow >= 0)  // if it is after midnight
-        $('body').addClass('midnight');
-});
 
-</script>
 </head>
 
 
@@ -72,10 +55,9 @@ $(document).ready(function () {
   </ul>
 </div>
 
- 
-   <div>
-  	<iframe class="vid" src="http://www.youtube.com/embed/SPtqRjirC6o" frameborder="1px" allowfullscreen></iframe>
-    </div>
+
+  	<iframe class="vid" width="560" height="345" src="http://www.youtube.com/embed/SPtqRjirC6o" frameborder="1px" allowfullscreen></iframe>
+
 
 </body>
 
